@@ -55,6 +55,16 @@ npx @deepseek-ai/dsh web --patch "$PWD/research-notes.patch.yml"
 
 Open the Harness Web UI shown by the command. The Agent can now use the four research-note tools.
 
+## Other DeepSeek Harness plugins
+
+The following plugins are maintained in separate public repositories:
+
+| Plugin               | Repository                                                                |
+| -------------------- | ------------------------------------------------------------------------- |
+| `dsh-task-checklist` | [fff122/dsh-task-checklist](https://github.com/fff122/dsh-task-checklist) |
+| `dsh-prompt-presets` | [fff122/dsh-prompt-presets](https://github.com/fff122/dsh-prompt-presets) |
+| `dsh-agent-arcade`   | [fff122/dsh-agent-arcade](https://github.com/fff122/dsh-agent-arcade)     |
+
 ## Verify the installation
 
 Ask the Agent to save a note, for example:
